@@ -1,0 +1,55 @@
+/* Ensure carousel images and captions are the same size and captions are always visible */
+.carousel-inner {
+  height: 400px;
+}
+.carousel-item {
+  height: 400px;
+  position: relative;
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  display: block !important;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+}
+
+section {
+  padding-top: 80px;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+textarea,
+input {
+  border-radius: 8px;
+}
+
+footer {
+  font-size: 0.9rem;
+}
